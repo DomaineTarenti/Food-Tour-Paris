@@ -26,8 +26,8 @@ const foods = [
     span: "col-span-1 row-span-1",
   },
   {
-    src: "/images/_wp-content_uploads_2025_12_Cheese-Montmartre-Paris-1024x683.jpg",
-    alt: "Artisan cheese Montmartre Paris",
+    src: "/images/_wp-content_uploads_2025_12_Tasting-room-montmartre-foodtour-768x1024.webp",
+    alt: "Tasting room Montmartre food tour",
     label: "Artisan Cheese",
     span: "col-span-1 row-span-1",
   },
