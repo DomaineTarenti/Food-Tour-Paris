@@ -14,7 +14,8 @@ export function Hero() {
           alt="Wine and cheese tasting in Montmartre Paris food tour"
           fill
           priority
-          className="object-cover object-bottom opacity-55"
+          className="object-cover opacity-55"
+          style={{ objectPosition: "center 85%" }}
           sizes="100vw"
         />
         {/* Centred gradient for legibility */}
