@@ -14,20 +14,20 @@ export function Hero() {
           alt="Wine and cheese tasting in Montmartre Paris food tour"
           fill
           priority
-          className="object-cover object-center opacity-55"
+          className="object-cover object-bottom opacity-55"
           sizes="100vw"
         />
-        {/* Left-heavy gradient so text is legible */}
-        <div className="absolute inset-0 bg-gradient-to-r from-[#1a0a06]/90 via-[#1a0a06]/60 to-[#1a0a06]/20" />
+        {/* Centred gradient for legibility */}
+        <div className="absolute inset-0 bg-[#1a0a06]/60" />
         <div className="absolute inset-0 bg-gradient-to-t from-[#1a0a06]/70 via-transparent to-transparent" />
       </div>
 
       {/* Content */}
-      <div className="container relative z-10 pt-28 pb-24">
-        <div className="max-w-xl">
+      <div className="container relative z-10 pt-28 pb-24 flex flex-col items-center text-center">
+        <div className="max-w-2xl">
 
           {/* Platform badge */}
-          <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-4 py-2 mb-8">
+          <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-4 py-2 mb-8 mx-auto">
             <div className="flex gap-0.5">
               {[...Array(5)].map((_, i) => (
                 <Star key={i} size={12} className="fill-[var(--color-gold)] text-[var(--color-gold)]" />
@@ -48,13 +48,13 @@ export function Hero() {
           </h1>
 
           {/* Sub */}
-          <p className="text-white/80 text-lg leading-relaxed mb-10 max-w-md" style={{ fontFamily: "var(--font-dm-sans)" }}>
+          <p className="text-white/80 text-lg leading-relaxed mb-10 max-w-lg mx-auto" style={{ fontFamily: "var(--font-dm-sans)" }}>
             A 3-hour food & wine journey through the cobblestone streets of
             Montmartre — guided by a local, filled with hidden gems.
           </p>
 
           {/* Social proof */}
-          <div className="flex items-center gap-3 mb-10">
+          <div className="flex items-center gap-3 mb-10 justify-center">
             <div className="flex gap-0.5">
               {[...Array(5)].map((_, i) => (
                 <Star key={i} size={16} className="fill-[var(--color-gold)] text-[var(--color-gold)]" />
@@ -67,7 +67,7 @@ export function Hero() {
           </div>
 
           {/* CTAs */}
-          <div className="flex flex-col sm:flex-row gap-4">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               href="/book"
               className="btn-primary text-base px-8 py-4 inline-flex items-center gap-2"
@@ -84,7 +84,7 @@ export function Hero() {
           </div>
 
           {/* Trust line */}
-          <div className="flex flex-wrap gap-5 mt-10 text-white/50 text-sm" style={{ fontFamily: "var(--font-dm-sans)" }}>
+          <div className="flex flex-wrap gap-5 mt-10 text-white/50 text-sm justify-center" style={{ fontFamily: "var(--font-dm-sans)" }}>
             <span className="flex items-center gap-1.5">
               <span className="w-1 h-1 rounded-full bg-[var(--color-gold)] inline-block" />
               Small groups · max 8
@@ -101,11 +101,6 @@ export function Hero() {
         </div>
       </div>
 
-      {/* Scroll indicator */}
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-10 flex flex-col items-center gap-2 opacity-40">
-        <span className="text-white text-xs font-sans tracking-widest uppercase">Scroll</span>
-        <div className="w-px h-8 bg-white animate-[scrollLine_1.5s_ease-in-out_infinite]" />
-      </div>
     </section>
   );
 }
