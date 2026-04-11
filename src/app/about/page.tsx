@@ -51,14 +51,14 @@ export default function AboutPage() {
                   <span className="text-[var(--color-bordeaux)]">About Food & People</span>
                 </h1>
                 <p className="text-lg text-[var(--color-charcoal-light)] leading-relaxed mb-6">
-                  I grew up in Montmartre, surrounded by the smells of fresh bread, aged cheese,
-                  and good wine. For me, food has always been the best way to tell the story of
-                  a place — and of its people.
+                  I&apos;m Imrane, and I grew up in these streets — the smell of fresh bread in the
+                  morning, the sound of a cork being pulled in the evening. Montmartre shaped
+                  how I think about food, community, and life.
                 </p>
                 <p className="text-[var(--color-charcoal-light)] leading-relaxed mb-8">
-                  After years of watching tourists rush past the best spots in my neighborhood,
-                  I decided to create the tour I always wished existed: small, intimate, genuine —
-                  and absolutely delicious.
+                  After working as a guide and in two top-50 restaurants, I created the tour
+                  I always wished existed: small, intimate, deeply genuine — and absolutely
+                  delicious. Every stop is somewhere I&apos;d bring my own family.
                 </p>
                 <Button href="/book" icon={<ArrowRight size={18} />}>
                   Book a Tour

@@ -39,10 +39,11 @@ export function MeetGuide() {
               Your Guide
             </p>
 
-            <h2 className="text-white mb-6">
+            <h2 className="text-white mb-2">
               Born &amp; Raised<br />
               in Montmartre
             </h2>
+            <p className="text-[var(--color-gold)] font-sans font-600 text-base mb-6">Imrane</p>
 
             <p
               className="text-white/70 text-lg leading-relaxed mb-5"
@@ -57,10 +58,9 @@ export function MeetGuide() {
               className="text-white/60 leading-relaxed mb-10"
               style={{ fontFamily: "var(--font-dm-sans)" }}
             >
-              After years of watching tourists rush past the most extraordinary little
-              shops in my neighborhood, I created the tour I always wished existed:
-              small, intimate, deeply genuine — and absolutely delicious. Every stop
-              on this tour is somewhere I&apos;d bring my own family.
+              After working as a guide and in two top-50 restaurants, I created the tour
+              I always wished existed: small, intimate, deeply genuine — and absolutely
+              delicious. Every stop on this tour is somewhere I&apos;d bring my own family.
             </p>
 
             {/* Credentials */}

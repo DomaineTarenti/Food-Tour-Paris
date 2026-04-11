@@ -4,8 +4,8 @@ import { Clock, Users, MapPin, Wine, ArrowRight } from "lucide-react";
 
 const stats = [
   { icon: Clock, value: "3 hours", label: "perfectly paced" },
-  { icon: Users, value: "Max 8", label: "guests per tour" },
-  { icon: Wine, value: "6–8", label: "food & wine tastings" },
+  { icon: Users, value: "Max 10", label: "guests per tour" },
+  { icon: Wine, value: "12", label: "food & wine tastings" },
   { icon: MapPin, value: "Montmartre", label: "Paris 18e" },
 ];
 
@@ -65,7 +65,7 @@ export function TourHighlights() {
               className="text-lg text-[var(--color-charcoal-light)] leading-relaxed mb-8"
               style={{ fontFamily: "var(--font-dm-sans)" }}
             >
-              Walk the cobblestone streets of Montmartre with a passionate local guide.
+              Walk the streets of Montmartre with a local food professional.
               Every stop is hand-picked, every tasting tells a story — this is the Paris
               you&apos;ve always dreamed of.
             </p>

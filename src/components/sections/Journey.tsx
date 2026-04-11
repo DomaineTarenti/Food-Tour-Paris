@@ -1,32 +1,32 @@
 const steps = [
   {
     num: "01",
-    title: "Meet at Sacré-Cœur",
-    body: "We gather at the iconic Montmartre steps. Your guide sets the scene with a glass of local wine and the stories that shaped this neighborhood.",
+    title: "Meet at Abbesses",
+    body: "We gather at the prettiest square of Montmartre, at the door of what we would call the Champs-Élysées of cafés. Look for the light blue umbrella.",
     tag: "The Welcome",
   },
   {
     num: "02",
     title: "The Fromagerie",
-    body: "A family-run cheese shop hidden down a cobblestone alley. Three aged cheeses, two wine pairings — and a history lesson you'll never forget.",
+    body: "One of the best cheese shops in the city. Discover the beauty and the endless depth of French cheese — 4 carefully selected varieties with wine pairings.",
     tag: "Wine & Cheese",
   },
   {
     num: "03",
     title: "The Boulangerie",
-    body: "Warm baguette straight from the oven, butter that melts on contact, and the croissant that will ruin all other croissants for you. You're welcome.",
+    body: "Warm baguette straight from the oven, daily-made pastries waiting for you. You're welcome.",
     tag: "Bread & Pastries",
   },
   {
     num: "04",
-    title: "The Cave à Vins",
-    body: "A hidden wine cellar off the tourist track. Natural wines, artisan charcuterie, and the easy conversation of a long French lunch — in 45 minutes.",
+    title: "The Butcher",
+    body: "The iconic butcher shop of Montmartre — a heaven for meat from carefully selected animals, grass-fed and farm-raised. The way it should be everywhere.",
     tag: "Charcuterie & Wine",
   },
   {
     num: "05",
-    title: "The Secret Terrace",
-    body: "A panoramic view of Paris that only locals know. One final glass. Your personalised map of the best spots to return to. Au revoir — and à bientôt.",
+    title: "Our Restaurant",
+    body: "The tour ends with a relaxed 3-course French meal at a cozy local restaurant — wine and cheeses included. A real taste of French gastronomy. The only time you'll say no to French food.",
     tag: "The Grand Finale",
   },
 ];

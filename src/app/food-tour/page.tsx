@@ -16,49 +16,49 @@ export const metadata: Metadata = {
 const itinerary = [
   {
     step: "01",
-    title: "Meeting Point — Sacré-Cœur Steps",
+    title: "Meeting Point — Place des Abbesses",
     description:
-      "We start at the iconic heart of Montmartre. Your guide shares the neighborhood's history over a welcome glass of local wine.",
+      "We gather at the prettiest square of Montmartre, right outside the metro stop. Look for the light blue umbrella. Your guide welcomes you with stories of the neighborhood.",
     icon: MapPin,
   },
   {
     step: "02",
-    title: "The Fromager — Artisan Cheese Tasting",
+    title: "The Fromagerie — Wine & Cheese",
     description:
-      "Visit a family-run fromagerie and taste 3–4 carefully selected cheeses with the perfect wine pairing. Discover what makes French cheese culture unique.",
+      "One of the best cheese shops in the city. Discover the beauty and endless depth of French cheese — 4 carefully selected varieties with wine pairings.",
     icon: Star,
   },
   {
     step: "03",
     title: "The Boulangerie — Bread & Pastries",
     description:
-      "Step into a traditional Parisian bakery. Fresh baguette, butter croissants, and seasonal pastries — all made the old-fashioned way.",
+      "Warm baguette straight from the oven, daily-made croissants and pastries waiting for you. Everything baked the old-fashioned way — you're welcome.",
     icon: Star,
   },
   {
     step: "04",
-    title: "The Cave à Vins — Wine & Charcuterie",
+    title: "The Butcher — Charcuterie & Wine",
     description:
-      "A hidden wine cellar in the backstreets of Montmartre. Taste natural wines alongside artisan charcuterie, with stories from your guide.",
+      "The iconic butcher shop of Montmartre — a heaven for meat from carefully selected animals, grass-fed and farm-raised. The way it should be everywhere.",
     icon: Star,
   },
   {
     step: "05",
-    title: "Secret Viewpoint — The Grand Finale",
+    title: "The Restaurant — The Grand Finale",
     description:
-      "End at a locals-only terrace with a panoramic view of Paris. One last glass of wine, your memories, and a map of the best spots to return to.",
+      "The tour ends with a relaxed 3-course French meal at a cozy local restaurant — wine and cheeses included. Beef bourguignon, oysters, chocolates, macarons. A real taste of French gastronomy.",
     icon: MapPin,
   },
 ];
 
 const included = [
   "3-hour guided food tour",
-  "6–8 food & wine tastings",
-  "Expert local guide",
-  "Small group (max 8 guests)",
+  "12 food & wine tastings (incl. oysters & restaurant finale)",
+  "Expert local guide born in Montmartre",
+  "Small group (max 10 guests)",
   "All food & drinks included",
   "Personalised recommendations map",
-  "Free cancellation (48h notice)",
+  "Free cancellation (24h notice)",
 ];
 
 const notIncluded = [
@@ -98,8 +98,8 @@ export default function FoodTourPage() {
           <div className="container flex flex-wrap justify-center gap-8 text-sm font-sans">
             {[
               { icon: Clock, label: "Duration", value: "3 hours" },
-              { icon: Users, label: "Group size", value: "Max 8 guests" },
-              { icon: MapPin, label: "Meeting point", value: "Sacré-Cœur, Montmartre" },
+              { icon: Users, label: "Group size", value: "Max 10 guests" },
+              { icon: MapPin, label: "Meeting point", value: "Place des Abbesses, Montmartre" },
               { icon: Calendar, label: "Availability", value: "Daily, year-round" },
             ].map(({ icon: Icon, label, value }) => (
               <div key={label} className="flex items-center gap-2">
@@ -242,7 +242,7 @@ export default function FoodTourPage() {
               className="bg-[var(--color-gold)] border-[var(--color-gold)] text-[var(--color-charcoal)] hover:bg-[var(--color-gold-light)] hover:border-[var(--color-gold-light)]">
               Book Your Spot — €85/person
             </Button>
-            <p className="text-white/50 text-sm mt-4">Free cancellation up to 48 hours before</p>
+            <p className="text-white/50 text-sm mt-4">Free cancellation up to 24 hours before</p>
           </div>
         </section>
       </main>

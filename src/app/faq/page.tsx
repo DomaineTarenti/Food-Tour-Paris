@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     q: "Where does the tour start?",
-    a: "We meet at the steps of Sacré-Cœur Basilica in Montmartre. Exact meeting instructions are sent by email upon booking. The area is easily accessible by metro (line 2, Anvers station) or by funicular.",
+    a: "We meet at Place des Abbesses — right outside the metro stop, where a light blue umbrella will be waiting for you. Exact instructions are sent by email upon booking. Abbesses is on metro line 12.",
   },
   {
     q: "How long is the tour?",
@@ -23,11 +23,11 @@ const faqs = [
   },
   {
     q: "How many people are in each group?",
-    a: "We keep groups small — a maximum of 8 guests per tour. This allows for a genuine, intimate experience where everyone gets personal attention from the guide.",
+    a: "We keep groups small — a maximum of 10 guests per tour. This allows for a genuine, intimate experience where everyone gets personal attention from the guide.",
   },
   {
     q: "What food and drink is included?",
-    a: "You'll enjoy 6–8 tastings throughout the tour, including wine, artisan cheese, charcuterie, fresh bread, pastries, and seasonal specialties. All food and drinks are fully included in the price.",
+    a: "You'll enjoy 12 tastings throughout the tour, including wine, artisan cheese, charcuterie, fresh bread, pastries, oysters, and a full 3-course restaurant finale. All food and drinks are fully included in the price.",
   },
   {
     q: "Can you accommodate dietary restrictions?",
@@ -39,7 +39,7 @@ const faqs = [
   },
   {
     q: "What is the cancellation policy?",
-    a: "We offer free cancellation up to 48 hours before the start of your tour. Cancellations made within 48 hours are non-refundable. In case of extreme weather, we may reschedule your tour at no extra cost.",
+    a: "We offer free cancellation up to 24 hours before the start of your tour. Cancellations made within 24 hours are non-refundable. In case of extreme weather, we may reschedule your tour at no extra cost.",
   },
   {
     q: "Is the tour conducted in English?",

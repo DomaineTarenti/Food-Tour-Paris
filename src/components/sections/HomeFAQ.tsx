@@ -7,7 +7,7 @@ import { Plus, Minus, ArrowRight } from "lucide-react";
 const faqs = [
   {
     q: "Where does the tour start?",
-    a: "We meet at the steps of Sacré-Cœur Basilica in Montmartre. Full details are sent by email after booking. The meeting point is a 10-minute walk from Anvers metro station (line 2).",
+    a: "We meet at Place des Abbesses — right outside the metro stop, where a light blue umbrella will be waiting for you. Full details are sent by email after booking. Abbesses is on metro line 12.",
   },
   {
     q: "Can you accommodate dietary restrictions?",
@@ -15,7 +15,7 @@ const faqs = [
   },
   {
     q: "How do I cancel or reschedule?",
-    a: "Free cancellation up to 48 hours before your tour, with a full refund. Within 48 hours, the booking is non-refundable. To reschedule, just contact us — we'll always do our best to accommodate you.",
+    a: "Free cancellation up to 24 hours before your tour, with a full refund. Within 24 hours, the booking is non-refundable. To reschedule, just contact us — we'll always do our best to accommodate you.",
   },
   {
     q: "Is it suitable for children?",

@@ -3,12 +3,12 @@ import { Check, ArrowRight, X } from "lucide-react";
 
 const included = [
   "3-hour guided food tour in Montmartre",
-  "6–8 tastings: wine, cheese, charcuterie, pastries",
+  "12 tastings: wine, cheese, charcuterie, pastries, local dishes, oysters",
   "Expert local guide born in Montmartre",
-  "Small group — maximum 8 guests",
+  "Small group — maximum 10 guests",
   "All food & drinks fully included",
   "Personalised map of hidden gems",
-  "Free cancellation up to 48 hours before",
+  "Free cancellation up to 24 hours before",
 ];
 
 const notIncluded = [
@@ -141,7 +141,7 @@ export function Pricing() {
               className="text-center text-xs text-[var(--color-charcoal-light)] mt-3"
               style={{ fontFamily: "var(--font-dm-sans)" }}
             >
-              Free cancellation · Secure payment · Instant confirmation
+              Free cancellation 24h before · Secure payment · Instant confirmation
             </p>
           </div>
         </div>

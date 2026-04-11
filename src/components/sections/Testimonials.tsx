@@ -62,7 +62,7 @@ export function Testimonials() {
               className="text-[var(--color-charcoal-light)] text-sm"
               style={{ fontFamily: "var(--font-dm-sans)" }}
             >
-              4.9 / 5 average &nbsp;·&nbsp; 200+ verified reviews
+              5 / 5 average &nbsp;·&nbsp; 70+ verified reviews
             </span>
           </div>
         </div>

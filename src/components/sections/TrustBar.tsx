@@ -1,10 +1,10 @@
 import { Star } from "lucide-react";
 
 const platforms = [
-  { name: "TripAdvisor", rating: "4.9", reviews: "120+" },
-  { name: "Google", rating: "5.0", reviews: "80+" },
-  { name: "Viator", rating: "4.9", reviews: "50+" },
-  { name: "GetYourGuide", rating: "5.0", reviews: "30+" },
+  { name: "TripAdvisor", rating: "5" },
+  { name: "Google", rating: "5.0" },
+  { name: "Viator", rating: "5" },
+  { name: "GetYourGuide", rating: "5.0" },
 ];
 
 export function TrustBar() {
@@ -34,7 +34,7 @@ export function TrustBar() {
                   style={{ fontFamily: "var(--font-dm-sans)" }}
                 >
                   <strong className="font-600">{p.rating}</strong>
-                  <span className="text-[var(--color-charcoal-light)]"> on {p.name}</span>
+                  <span className="text-[var(--color-charcoal-light)]"> on {p.name} </span>
                 </span>
               </div>
             ))}

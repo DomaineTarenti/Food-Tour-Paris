@@ -36,7 +36,7 @@ export function Hero() {
               ))}
             </div>
             <span className="text-white/90 text-xs font-sans font-500 tracking-wide">
-              Rated #1 Food Tour in Montmartre
+              One of the highest rated Food Tours in Montmartre
             </span>
           </div>
 
@@ -52,7 +52,7 @@ export function Hero() {
           {/* Sub */}
           <p className="text-white/80 text-lg leading-relaxed mb-10 max-w-lg mx-auto" style={{ fontFamily: "var(--font-dm-sans)" }}>
             A 3-hour food & wine journey through the cobblestone streets of
-            Montmartre — guided by a local, filled with hidden gems.
+            Montmartre — guided by a local, filled with stories.
           </p>
 
           {/* Social proof */}
@@ -63,7 +63,7 @@ export function Hero() {
               ))}
             </div>
             <span className="text-white/70 text-sm" style={{ fontFamily: "var(--font-dm-sans)" }}>
-              <strong className="text-white font-600">4.9 / 5</strong>
+              <strong className="text-white font-600">5 / 5</strong>
               &nbsp;·&nbsp;200+ happy guests
             </span>
           </div>
@@ -89,7 +89,7 @@ export function Hero() {
           <div className="flex flex-wrap gap-5 mt-10 text-white/50 text-sm justify-center" style={{ fontFamily: "var(--font-dm-sans)" }}>
             <span className="flex items-center gap-1.5">
               <span className="w-1 h-1 rounded-full bg-[var(--color-gold)] inline-block" />
-              Small groups · max 8
+              Small groups · max 10
             </span>
             <span className="flex items-center gap-1.5">
               <span className="w-1 h-1 rounded-full bg-[var(--color-gold)] inline-block" />
