@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { Playfair_Display, DM_Sans, Cormorant_Garamond } from "next/font/google";
-import Script from "next/script";
 import "./globals.css";
 
 const playfair = Playfair_Display({
@@ -121,20 +120,13 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
         />
+        {/* Preconnect to Google Fonts CDN for faster font load */}
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
       </head>
       <body className="min-h-full flex flex-col bg-[var(--color-cream)] text-[var(--color-charcoal)]">
         {children}
-
-        {/*
-          Bokun booking widget loader.
-          Loaded after the page is interactive so it doesn't block rendering.
-          It finds every .bokunButton on the page by ID, enables it,
-          and opens the booking overlay on click.
-        */}
-        <Script
-          src="https://widgets.bokun.io/assets/javascripts/apps/build/BokunWidgetsLoader.js?bookingChannelUUID=be1dcd8e-b0e1-41cd-8e35-4401ac8ef091"
-          strategy="afterInteractive"
-        />
+        {/* Bokun script is loaded only on /book — not here */}
       </body>
     </html>
   );

@@ -6,7 +6,7 @@ import { ArrowRight, Star } from "lucide-react";
 
 export function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center overflow-hidden bg-[var(--color-charcoal)]">
+    <section className="relative flex items-center overflow-hidden bg-[var(--color-charcoal)]" style={{ minHeight: "100svh" }}>
       {/* Background image */}
       <div className="absolute inset-0 z-0">
         <Image

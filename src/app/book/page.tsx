@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { BokunButton } from "@/components/ui/BokunButton";
@@ -23,6 +24,10 @@ const included = [
 export default function BookPage() {
   return (
     <>
+      <Script
+        src="https://widgets.bokun.io/assets/javascripts/apps/build/BokunWidgetsLoader.js?bookingChannelUUID=be1dcd8e-b0e1-41cd-8e35-4401ac8ef091"
+        strategy="afterInteractive"
+      />
       <Header />
       <main className="pt-20">
         <section className="section">
