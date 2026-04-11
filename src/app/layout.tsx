@@ -123,13 +123,6 @@ export default function RootLayout({
         {/* Preconnect to Google Fonts CDN for faster font load */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        {/* Preload LCP hero image — critical for mobile LCP score */}
-        <link
-          rel="preload"
-          as="image"
-          href="/images/hero-bg.webp"
-          type="image/webp"
-        />
       </head>
       <body className="min-h-full flex flex-col bg-[var(--color-cream)] text-[var(--color-charcoal)]">
         {children}
