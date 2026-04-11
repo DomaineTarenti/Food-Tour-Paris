@@ -10,13 +10,14 @@ export function Hero() {
       {/* Background image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/images/_wp-content_uploads_2025_12_wine-and-cheese-tasting-montmartre-food-tour-scaled.webp"
+          src="/images/hero-bg.webp"
           alt="Wine and cheese tasting in Montmartre Paris food tour"
           fill
           priority
+          quality={60}
           className="object-cover opacity-55"
           style={{ objectPosition: "center 85%" }}
-          sizes="100vw"
+          sizes="(max-width: 768px) 100vw, 1280px"
         />
         {/* Centred gradient for legibility */}
         <div className="absolute inset-0 bg-[#1a0a06]/60" />
