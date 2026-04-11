@@ -203,6 +203,34 @@ export default function FoodTourPage() {
           </div>
         </section>
 
+        {/* Blog links */}
+        <section className="section">
+          <div className="container max-w-3xl mx-auto">
+            <div className="text-center mb-10">
+              <Badge className="mb-4">Read More</Badge>
+              <h2>Go Deeper Into Montmartre</h2>
+            </div>
+            <div className="grid sm:grid-cols-3 gap-6">
+              {[
+                { href: "/blog/wine-cheese-paris-guide", label: "Wine & Cheese Guide" },
+                { href: "/blog/french-pastries-montmartre-guide", label: "French Pastries Guide" },
+                { href: "/blog/montmartre-hidden-food-scene", label: "Montmartre's Hidden Food Scene" },
+              ].map((link) => (
+                <a
+                  key={link.href}
+                  href={link.href}
+                  className="card p-5 flex items-center justify-between gap-3 group hover:no-underline"
+                >
+                  <span className="font-sans text-sm font-600 text-[var(--color-charcoal)] group-hover:text-[var(--color-bordeaux)] transition-colors">
+                    {link.label}
+                  </span>
+                  <ArrowRight size={16} className="text-[var(--color-gold)] flex-shrink-0" />
+                </a>
+              ))}
+            </div>
+          </div>
+        </section>
+
         {/* CTA */}
         <section className="section bg-[var(--color-bordeaux-dark)] text-white text-center">
           <div className="container max-w-2xl mx-auto">

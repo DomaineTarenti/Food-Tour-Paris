@@ -46,7 +46,8 @@ export default function AboutPage() {
               <div>
                 <Badge className="mb-4">The Story</Badge>
                 <h1 className="mb-6">
-                  A Parisian Passionate<br />
+                  A Parisian Passionate{" "}
+                  <br />
                   <span className="text-[var(--color-bordeaux)]">About Food & People</span>
                 </h1>
                 <p className="text-lg text-[var(--color-charcoal-light)] leading-relaxed mb-6">

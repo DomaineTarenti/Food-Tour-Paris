@@ -27,9 +27,13 @@ export function Footer() {
               Authentic food & wine experiences in the heart of Montmartre, Paris.
               Discover the real French gastronomy with a passionate local guide.
             </p>
-            <p className="mt-6 text-xs text-[var(--color-charcoal-light)] uppercase tracking-widest">
-              Paris, France
-            </p>
+            <address className="mt-6 not-italic text-xs text-[var(--color-charcoal-light)] leading-relaxed space-y-1">
+              <p>Sacré-Cœur, Montmartre</p>
+              <p>Paris 75018, France</p>
+              <a href="mailto:contact@frenchfoodtour.com" className="hover:text-white transition-colors">
+                contact@frenchfoodtour.com
+              </a>
+            </address>
           </div>
 
           {/* Links */}

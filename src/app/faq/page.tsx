@@ -6,7 +6,7 @@ import { Badge } from "@/components/ui/Badge";
 import { ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "FAQ — Frequently Asked Questions",
+  title: "Paris Food Tour FAQ — All Your Questions Answered",
   description:
     "Everything you need to know about the French Food Tour in Paris: meeting point, dietary restrictions, group size, booking & cancellation policy.",
   alternates: { canonical: "https://www.frenchfoodtour.com/faq" },
@@ -55,9 +55,23 @@ const faqs = [
   },
 ];
 
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faqs.map((faq) => ({
+    "@type": "Question",
+    name: faq.q,
+    acceptedAnswer: { "@type": "Answer", text: faq.a },
+  })),
+};
+
 export default function FaqPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
       <Header />
       <main className="pt-20">
         <section className="section">

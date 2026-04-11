@@ -65,6 +65,47 @@ export const metadata: Metadata = {
   },
 };
 
+const localBusinessSchema = {
+  "@context": "https://schema.org",
+  "@type": ["TouristAttraction", "LocalBusiness"],
+  name: "French Food Tour Paris",
+  description:
+    "Authentic 3-hour food & wine tour in Montmartre with a local guide. Cheese, wine, charcuterie, pastries and hidden gems. Maximum 8 guests.",
+  url: "https://www.frenchfoodtour.com",
+  email: "contact@frenchfoodtour.com",
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: "Place du Parvis du Sacré-Cœur",
+    addressLocality: "Paris",
+    postalCode: "75018",
+    addressCountry: "FR",
+  },
+  geo: {
+    "@type": "GeoCoordinates",
+    latitude: 48.8867,
+    longitude: 2.3431,
+  },
+  priceRange: "€€",
+  image:
+    "https://www.frenchfoodtour.com/images/_wp-content_uploads_2025_12_wine-and-cheese-tasting-montmartre-food-tour-scaled.webp",
+  aggregateRating: {
+    "@type": "AggregateRating",
+    ratingValue: "4.9",
+    reviewCount: "200",
+    bestRating: "5",
+  },
+  availableLanguage: ["English", "French"],
+  touristType: "Food lover, Wine enthusiast, Cultural traveler",
+  openingHoursSpecification: [
+    {
+      "@type": "OpeningHoursSpecification",
+      dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      opens: "09:00",
+      closes: "18:00",
+    },
+  ],
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -75,6 +116,12 @@ export default function RootLayout({
       lang="en"
       className={`${playfair.variable} ${dmSans.variable} ${cormorant.variable} h-full antialiased`}
     >
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
+        />
+      </head>
       <body className="min-h-full flex flex-col bg-[var(--color-cream)] text-[var(--color-charcoal)]">
         {children}
 
