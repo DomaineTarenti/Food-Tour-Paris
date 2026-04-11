@@ -46,19 +46,21 @@ export default function AboutPage() {
               <div>
                 <Badge className="mb-4">The Story</Badge>
                 <h1 className="mb-6">
-                  A Parisian Passionate{" "}
+                  A Food &amp; Beverage{" "}
                   <br />
-                  <span className="text-[var(--color-bordeaux)]">About Food & People</span>
+                  <span className="text-[var(--color-bordeaux)]">Professional from Paris</span>
                 </h1>
                 <p className="text-lg text-[var(--color-charcoal-light)] leading-relaxed mb-6">
-                  I&apos;m Imrane, and I grew up in these streets — the smell of fresh bread in the
-                  morning, the sound of a cork being pulled in the evening. Montmartre shaped
-                  how I think about food, community, and life.
+                  I&apos;m Imrane. I spent years on the floor of Parisian restaurants —
+                  neighbourhood tables, Michelin-starred kitchens, and two establishments
+                  that sit in the world&apos;s top 10. Food service is the only world I&apos;ve ever known.
                 </p>
                 <p className="text-[var(--color-charcoal-light)] leading-relaxed mb-8">
-                  After working as a guide and in two top-50 restaurants, I created the tour
-                  I always wished existed: small, intimate, deeply genuine — and absolutely
-                  delicious. Every stop is somewhere I&apos;d bring my own family.
+                  Three years ago I left the restaurant floor to run food tours. Over 4,000 guests
+                  later, I&apos;ve never had a negative review. A year ago I went solo — and built
+                  a tour around one idea: French gastronomy deserves a fuller picture. You&apos;ll find
+                  cheese and charcuterie, but this goes further — into the details and rituals
+                  that make French food culture what it is.
                 </p>
                 <Button href="/book" icon={<ArrowRight size={18} />}>
                   Book a Tour

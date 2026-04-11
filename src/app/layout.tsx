@@ -69,7 +69,7 @@ const localBusinessSchema = {
   "@type": ["TouristAttraction", "LocalBusiness"],
   name: "French Food Tour Paris",
   description:
-    "Authentic 3-hour food & wine tour in Montmartre with a local guide. 12 tastings: cheese, wine, charcuterie, pastries, oysters & restaurant finale. Maximum 10 guests.",
+    "Authentic 3-hour food tour in Paris led by a former top-10 restaurant professional. 12 tastings: cheese, wine, charcuterie, pastries, oysters & restaurant finale. Maximum 10 guests.",
   url: "https://www.frenchfoodtour.com",
   email: "contact@frenchfoodtour.com",
   address: {

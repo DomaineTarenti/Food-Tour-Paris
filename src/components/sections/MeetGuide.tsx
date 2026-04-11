@@ -40,8 +40,8 @@ export function MeetGuide() {
             </p>
 
             <h2 className="text-white mb-2">
-              Born &amp; Raised<br />
-              in Montmartre
+              French Food &amp;<br />
+              Beverage Professional
             </h2>
             <p className="text-[var(--color-gold)] font-sans font-600 text-base mb-6">Imrane</p>
 
@@ -49,26 +49,26 @@ export function MeetGuide() {
               className="text-white/70 text-lg leading-relaxed mb-5"
               style={{ fontFamily: "var(--font-dm-sans)" }}
             >
-              I grew up in these streets — the smell of fresh bread in the morning,
-              the sound of a cork being pulled in the evening. Montmartre shaped how
-              I think about food, community, and life.
+              I spent years on the floor of Parisian restaurants — neighbourhood tables,
+              Michelin-starred kitchens, and two establishments that sit in the world&apos;s top 10.
+              Food service is the only world I&apos;ve ever known.
             </p>
 
             <p
               className="text-white/60 leading-relaxed mb-10"
               style={{ fontFamily: "var(--font-dm-sans)" }}
             >
-              After working as a guide and in two top-50 restaurants, I created the tour
-              I always wished existed: small, intimate, deeply genuine — and absolutely
-              delicious. Every stop on this tour is somewhere I&apos;d bring my own family.
+              Three years ago I left the restaurant floor to run food tours. Over 4,000 guests
+              later, I&apos;ve never had a negative review. A year ago I went solo — and built
+              a tour around one idea: French gastronomy deserves a fuller picture.
             </p>
 
             {/* Credentials */}
             <div className="grid grid-cols-3 gap-4 mb-10">
               {[
-                { value: "8+", label: "Years guiding" },
-                { value: "200+", label: "Guests hosted" },
-                { value: "4.9★", label: "Average rating" },
+                { value: "3+", label: "Years guiding" },
+                { value: "4,000+", label: "Guests hosted" },
+                { value: "5★", label: "Average rating" },
               ].map(({ value, label }) => (
                 <div key={label} className="text-center p-4 rounded-[var(--radius-lg)] bg-white/5 border border-white/10">
                   <p

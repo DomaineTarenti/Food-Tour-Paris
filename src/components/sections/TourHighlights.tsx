@@ -42,7 +42,7 @@ export function TourHighlights() {
             </div>
             {/* Floating stat card */}
             <div className="absolute top-6 -left-6 bg-[var(--color-bordeaux)] text-white rounded-[var(--radius-lg)] px-5 py-4 shadow-[var(--shadow-cta)]">
-              <p className="text-3xl font-bold leading-none" style={{ fontFamily: "var(--font-playfair)" }}>200+</p>
+              <p className="text-3xl font-bold leading-none" style={{ fontFamily: "var(--font-playfair)" }}>4,000+</p>
               <p className="text-xs text-white/70 mt-1" style={{ fontFamily: "var(--font-dm-sans)" }}>happy guests</p>
             </div>
           </div>
