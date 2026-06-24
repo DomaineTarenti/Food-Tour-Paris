@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180">
+  <!-- Bordeaux rounded square background -->
+  <rect width="180" height="180" rx="40" fill="#4E1F26"/>
+
+  <!-- Wine glass bowl (trapezoid) -->
+  <path d="M50 28 L73 101 L107 101 L130 28 Z" fill="#FAF3E0" opacity="0.92"/>
+
+  <!-- Wine fill (lower portion of bowl) -->
+  <path d="M63 67 L73 101 L107 101 L117 67 Z" fill="#9B4D57"/>
+
+  <!-- Glass highlight / shine -->
+  <path d="M59 40 L66 79" stroke="#FFFFFF" stroke-width="5.5" stroke-linecap="round" opacity="0.35"/>
+
+  <!-- Gold rim accent -->
+  <line x1="50" y1="28" x2="130" y2="28" stroke="#C9A84C" stroke-width="8.5" stroke-linecap="round"/>
+
+  <!-- Stem -->
+  <rect x="85" y="101" width="10" height="34" rx="5" fill="#FAF3E0" opacity="0.92"/>
+
+  <!-- Base -->
+  <rect x="56" y="135" width="68" height="11" rx="5.5" fill="#FAF3E0" opacity="0.92"/>
+</svg>
