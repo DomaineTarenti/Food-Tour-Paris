@@ -5,7 +5,7 @@ import { Clock, Users, MapPin, Wine, ArrowRight } from "lucide-react";
 const stats = [
   { icon: Clock, value: "3 hours", label: "perfectly paced" },
   { icon: Users, value: "Max 10", label: "guests per tour" },
-  { icon: Wine, value: "12", label: "food & wine tastings" },
+  { icon: Wine, value: "15", label: "food & wine tastings" },
   { icon: MapPin, value: "Montmartre", label: "Paris 18e" },
 ];
 
@@ -58,16 +58,18 @@ export function TourHighlights() {
 
             <h2 className="mb-6">
               One Signature Tour,<br />
-              Endless Flavors
+              One departure a day,<br />
+              <span className="text-[var(--color-bordeaux)]">Far from the big companies</span>
             </h2>
 
             <p
               className="text-lg text-[var(--color-charcoal-light)] leading-relaxed mb-8"
               style={{ fontFamily: "var(--font-dm-sans)" }}
             >
-              Walk the streets of Montmartre with a local food professional.
-              Every stop is hand-picked, every tasting tells a story — this is the Paris
-              you&apos;ve always dreamed of.
+              Walk the streets of Montmartre with a local food professional. By being a one-man
+              company, I can choose exactly what I want: the highest quality possible. Every stop
+              is hand-picked, every tasting tells a story. This is the Paris you wish you&apos;d
+              seen earlier.
             </p>
 
             {/* Stats grid */}

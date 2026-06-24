@@ -3,9 +3,9 @@ import { Check, ArrowRight, X } from "lucide-react";
 
 const included = [
   "3-hour guided food tour in Montmartre",
-  "12 tastings: wine, cheese, charcuterie, pastries, local dishes, oysters",
+  "15 tastings: wine, cheese, charcuterie, pastries, oysters, chocolate & more",
   "Expert local guide born in Montmartre",
-  "Small group — maximum 10 guests",
+  "Small group, maximum 10 guests",
   "All food & drinks fully included",
   "Personalised map of hidden gems",
   "Free cancellation up to 24 hours before",
@@ -63,20 +63,26 @@ export function Pricing() {
                   className="text-5xl font-bold text-white leading-none"
                   style={{ fontFamily: "var(--font-playfair)" }}
                 >
-                  €85
+                  €115
                 </span>
                 <span
                   className="text-white/60 text-sm"
                   style={{ fontFamily: "var(--font-dm-sans)" }}
                 >
-                  / person
+                  adult
                 </span>
               </div>
+              <p
+                className="text-white/60 text-sm mt-0.5"
+                style={{ fontFamily: "var(--font-dm-sans)" }}
+              >
+                €95 <span className="text-white/40 text-xs">child</span>
+              </p>
               <p
                 className="text-[var(--color-gold)] text-xs mt-1"
                 style={{ fontFamily: "var(--font-dm-sans)" }}
               >
-                All food &amp; drinks included
+                Best price, cheaper than Viator or GetYourGuide
               </p>
             </div>
           </div>

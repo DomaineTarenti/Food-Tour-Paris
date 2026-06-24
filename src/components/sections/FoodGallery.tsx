@@ -26,12 +26,6 @@ const foods = [
     span: "col-span-1 row-span-1",
   },
   {
-    src: "/images/_wp-content_uploads_2025_12_Tasting-room-montmartre-foodtour-768x1024.webp",
-    alt: "Tasting room Montmartre food tour",
-    label: "Artisan Cheese",
-    span: "col-span-1 row-span-1",
-  },
-  {
     src: "/images/_wp-content_uploads_2025_12_wine-tasting-paris-food-tour-montmartre-1-1024x683.webp",
     alt: "Wine tasting Paris food tour Montmartre",
     label: "Natural Wine",
@@ -58,7 +52,7 @@ export function FoodGallery() {
         </div>
 
         {/* Mosaic grid */}
-        <div className="grid grid-cols-3 grid-rows-3 gap-3 h-[560px] md:h-[680px]">
+        <div className="grid grid-cols-3 grid-rows-2 gap-3 h-[400px] md:h-[480px]">
           {/* Large left cell */}
           <div className="col-span-1 row-span-2 relative rounded-[var(--radius-lg)] overflow-hidden group">
             <Image
@@ -97,8 +91,8 @@ export function FoodGallery() {
             </div>
           ))}
 
-          {/* Bottom row: 3 cells */}
-          {foods.slice(3, 6).map((f) => (
+          {/* Bottom row: 2 cells */}
+          {foods.slice(3, 5).map((f) => (
             <div key={f.src} className="col-span-1 row-span-1 relative rounded-[var(--radius-lg)] overflow-hidden group">
               <Image
                 src={f.src}

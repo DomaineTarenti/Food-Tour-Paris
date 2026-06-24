@@ -7,7 +7,7 @@ import { Plus, Minus, ArrowRight } from "lucide-react";
 const faqs = [
   {
     q: "Where does the tour start?",
-    a: "We meet at Place des Abbesses — right outside the metro stop, where a light blue umbrella will be waiting for you. Full details are sent by email after booking. Abbesses is on metro line 12.",
+    a: "We meet at the Anvers metro stop in Montmartre, where a light blue umbrella will be waiting for you. Full details are sent by email after booking. Anvers is on metro line 2.",
   },
   {
     q: "Can you accommodate dietary restrictions?",
@@ -19,7 +19,7 @@ const faqs = [
   },
   {
     q: "Is it suitable for children?",
-    a: "The tour is designed for adults and older teenagers (14+). Younger children are welcome with a parent, but note that tastings include wine.",
+    a: "This tour is perfectly suited for families, couples, and groups of all kinds. Kids absolutely love it, maybe just not the wine! The experience is designed to be fun and engaging for everyone.",
   },
 ];
 

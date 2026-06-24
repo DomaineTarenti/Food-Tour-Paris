@@ -59,8 +59,9 @@ export function MeetGuide() {
               style={{ fontFamily: "var(--font-dm-sans)" }}
             >
               Three years ago I left the restaurant floor to run food tours. Over 4,000 guests
-              later, I&apos;ve never had a negative review. A year ago I went solo — and built
-              a tour around one idea: French gastronomy deserves a fuller picture.
+              later, I&apos;ve never had a negative review. A year ago I went solo, and built
+              a tour around one idea: French gastronomy deserves a fuller picture than the usual
+              basic cheese and charcuterie experience the big companies do.
             </p>
 
             {/* Credentials */}

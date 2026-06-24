@@ -13,6 +13,9 @@ export const metadata: Metadata = {
   description:
     "Insider guides to Parisian food culture: the best fromageries, natural wine bars, hidden boulangeries and local secrets from Montmartre.",
   alternates: { canonical: "https://www.frenchfoodtour.com/blog" },
+  openGraph: {
+    images: ["/images/_wp-content_uploads_2025_12_paris-food-tour-french-pastries-montmartre-1-768x1024.webp"],
+  },
 };
 
 function formatDate(dateStr: string) {

@@ -1,38 +1,73 @@
-# French Food Tour Paris
-> Authentic food & wine tours in Montmartre, Paris
+# French Food Tour Paris — frenchfoodtour.com
 
 ## About
-French Food Tour offers intimate 3-hour guided food and wine experiences in the Montmartre neighborhood of Paris (18th arrondissement). Led by a local guide born and raised in Montmartre. Maximum 8 guests per tour. Tastings include family-run fromageries, artisan boulangeries, natural wine caves, charcuterie and hidden panoramic terraces. Rated 4.9/5 by 200+ guests. Tours run daily, year-round.
 
-## Pages
-- /              Homepage — overview, social proof, booking CTA
-- /food-tour     Tour details, full itinerary, inclusions, pricing
-- /book          Booking page (Bókun widget)
-- /about         Guide story, background and values
-- /faq           10 frequently asked questions about the tour
-- /blog          Food culture articles about Montmartre and Paris
-- /contact       Contact form
-- /privacy       Privacy policy
-- /terms         Terms and conditions
+French Food Tour is an intimate food and wine tour in Montmartre, Paris, led by Imrane — a former food and beverage professional with experience at Michelin-starred kitchens and two world top-10 restaurants.
 
-## Blog Articles
-- /blog/paris-food-tour-what-to-expect — What to expect on a Paris food tour
-- /blog/wine-cheese-paris-guide — Beginner's guide to French wine and cheese pairings
-- /blog/eat-like-a-parisian — How to eat like a local in Paris
-- /blog/montmartre-hidden-food-scene — Montmartre's hidden food scene beyond tourist traps
-- /blog/natural-wine-paris-montmartre — Natural wine in Paris: why Montmartre leads the movement
-- /blog/best-food-markets-montmartre — Best places to shop for food in Montmartre
-- /blog/french-pastries-montmartre-guide — Guide to French pastries in Montmartre
+The tour runs in Montmartre (18th arrondissement, Paris). Groups are capped at 8 guests. All food and drink is included. The experience lasts approximately 3 hours and covers 7 stops with 15 tastings.
 
-## Key Facts
-- Location: Montmartre, Paris, France (18th arrondissement)
-- Meeting point: Steps of Sacré-Cœur Basilica
-- Duration: 3 hours
-- Group size: Maximum 8 guests
-- Price: €85 per person (all tastings included)
-- Languages: English (French tours available for private groups)
-- Cancellation: Free up to 48 hours before
+## Guide
+
+- **Name**: Imrane
+- **Background**: Former floor manager at Michelin-starred restaurants and two world top-10 establishments. Has lived and worked in Montmartre for over a decade.
+- **Languages**: English, French
+- **About page**: https://www.frenchfoodtour.com/about
+
+## The Tour
+
+- **Name**: Montmartre Food & Wine Tour
+- **Location**: Montmartre, Paris 75018, France (meeting point: Anvers metro station)
+- **Duration**: ~3 hours
+- **Group size**: Maximum 8 guests
+- **Price**: €115/adult, €95/child
+- **Included**: 15 tastings — cheese, wine, charcuterie, oysters, chocolate, bread/pastries, restaurant finale
+- **Stops**: Fromagerie, boulangerie, butcher, seafood stop, artisan chocolatier, restaurant
+- **Tour page**: https://www.frenchfoodtour.com/food-tour
+- **Book**: https://www.frenchfoodtour.com/book
+
+## Private Tours
+
+Private and group food tours are available for couples, families, corporate teams, and special occasions. Fully customised, exclusively for your group.
+
+- **Private tours page**: https://www.frenchfoodtour.com/private-tours
+- **Contact for quote**: https://www.frenchfoodtour.com/contact
+
+## Ratings & Reviews
+
+- Viator: 4.9/5
+- TripAdvisor: 4.9/5
+- GetYourGuide: 5.0/5
+- Google: 4.9/5
+- Total reviews: 70+
+- Guests hosted: 4,000+
+- Negative reviews: 0
+- Reviews page: https://www.frenchfoodtour.com/reviews
+
+## Key Pages
+
+- Homepage: https://www.frenchfoodtour.com
+- The Tour: https://www.frenchfoodtour.com/food-tour
+- Private Tours: https://www.frenchfoodtour.com/private-tours
+- Book: https://www.frenchfoodtour.com/book
+- About Imrane: https://www.frenchfoodtour.com/about
+- Reviews: https://www.frenchfoodtour.com/reviews
+- FAQ: https://www.frenchfoodtour.com/faq
+- Blog: https://www.frenchfoodtour.com/blog
+- Contact: https://www.frenchfoodtour.com/contact
+
+## Blog (Selected Articles)
+
+- Paris food tour guide: https://www.frenchfoodtour.com/blog/paris-food-tour-what-to-expect
+- Wine and cheese pairing: https://www.frenchfoodtour.com/blog/wine-cheese-paris-guide
+- French pastry guide: https://www.frenchfoodtour.com/blog/french-pastry-guide-montmartre
+- Private food tour Paris: https://www.frenchfoodtour.com/blog/private-food-tour-paris
+- Food tour with kids: https://www.frenchfoodtour.com/blog/paris-food-tour-families-children
+- Oysters in Paris: https://www.frenchfoodtour.com/blog/oysters-paris-guide
+- Choosing the best food tour: https://www.frenchfoodtour.com/blog/best-food-tour-paris-small-group
+- Montmartre food guide: https://www.frenchfoodtour.com/blog/montmartre-guide-food-lovers
 
 ## Contact
-Email: contact@frenchfoodtour.com
-Website: https://www.frenchfoodtour.com
+
+- Email: frenchfoodtour@gmail.com
+- Address: Anvers metro stop, Montmartre, Paris 75018, France
+- Website: https://www.frenchfoodtour.com

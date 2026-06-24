@@ -11,11 +11,12 @@ import { MeetGuide } from "@/components/sections/MeetGuide";
 import { Pricing } from "@/components/sections/Pricing";
 import { HomeFAQ } from "@/components/sections/HomeFAQ";
 import { FinalCTA } from "@/components/sections/FinalCTA";
+import { PrivateToursBanner } from "@/components/sections/PrivateToursBanner";
 
 export const metadata: Metadata = {
   title: "French Food Tour Paris — Authentic Montmartre Food & Wine Experience",
   description:
-    "Discover the real Paris through its flavors. Join our signature 3-hour food & wine tour in Montmartre — cheese, pastries, wine & hidden gems with a local guide. Max 8 guests. Book now!",
+    "Paris' most generous food tour: 15 tastings in 3 hours through Montmartre with a local food professional. Cheese, wine, oysters, chocolate & restaurant finale. Max 10 guests. Book now.",
   alternates: {
     canonical: "https://www.frenchfoodtour.com",
   },
@@ -50,13 +51,16 @@ export default function HomePage() {
         {/* 7 — Le guide */}
         <MeetGuide />
 
-        {/* 8 — Tarifs */}
+        {/* 8 — Tours privés */}
+        <PrivateToursBanner />
+
+        {/* 9 — Tarifs */}
         <Pricing />
 
-        {/* 9 — FAQ */}
+        {/* 10 — FAQ */}
         <HomeFAQ />
 
-        {/* 10 — CTA final */}
+        {/* 11 — CTA final */}
         <FinalCTA />
       </main>
       <Footer />

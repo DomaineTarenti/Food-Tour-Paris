@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   description:
     "Questions about the Paris food tour? Get in touch — we reply within 24 hours. We'd love to hear from you.",
   alternates: { canonical: "https://www.frenchfoodtour.com/contact" },
+  openGraph: {
+    images: ["/images/_wp-content_uploads_2025_12_ouple-enjoying-wine-paris-food-tour-1024x512.webp"],
+  },
 };
 
 export default function ContactPage() {
@@ -33,7 +36,7 @@ export default function ContactPage() {
                   {
                     icon: Mail,
                     title: "Email",
-                    value: "hello@frenchfoodtour.com",
+                    value: "frenchfoodtour@gmail.com",
                     sub: "We reply within 24 hours",
                   },
                   {
@@ -64,7 +67,7 @@ export default function ContactPage() {
 
               {/* Contact form */}
               <div className="lg:col-span-3 card p-8">
-                <form className="space-y-5" action="mailto:hello@frenchfoodtour.com" method="POST">
+                <form className="space-y-5" action="mailto:frenchfoodtour@gmail.com" method="POST">
                   <div className="grid sm:grid-cols-2 gap-5">
                     <div>
                       <label htmlFor="first-name" className="block font-sans text-sm font-500 text-[var(--color-charcoal)] mb-2">

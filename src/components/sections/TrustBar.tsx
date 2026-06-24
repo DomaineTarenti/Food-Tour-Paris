@@ -1,9 +1,10 @@
+import Link from "next/link";
 import { Star } from "lucide-react";
 
 const platforms = [
-  { name: "TripAdvisor", rating: "5" },
-  { name: "Google", rating: "5.0" },
-  { name: "Viator", rating: "5" },
+  { name: "TripAdvisor", rating: "4.9" },
+  { name: "Google", rating: "4.9" },
+  { name: "Viator", rating: "4.9" },
   { name: "GetYourGuide", rating: "5.0" },
 ];
 
@@ -21,7 +22,7 @@ export function TrustBar() {
           </span>
 
           {/* Platforms */}
-          <div className="flex flex-wrap justify-center sm:justify-start gap-6 sm:pl-8">
+          <div className="flex flex-wrap justify-center sm:justify-start items-center gap-6 sm:pl-8">
             {platforms.map((p) => (
               <div key={p.name} className="flex items-center gap-2">
                 <div className="flex gap-0.5">
@@ -34,10 +35,17 @@ export function TrustBar() {
                   style={{ fontFamily: "var(--font-dm-sans)" }}
                 >
                   <strong className="font-600">{p.rating}</strong>
-                  <span className="text-[var(--color-charcoal-light)]"> on {p.name} </span>
+                  <span className="text-[var(--color-charcoal-light)]"> on {p.name}</span>
                 </span>
               </div>
             ))}
+            <Link
+              href="/reviews"
+              className="text-xs text-[var(--color-bordeaux)] font-600 hover:underline whitespace-nowrap"
+              style={{ fontFamily: "var(--font-dm-sans)" }}
+            >
+              See all reviews →
+            </Link>
           </div>
         </div>
       </div>

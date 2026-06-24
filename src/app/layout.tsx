@@ -69,12 +69,12 @@ const localBusinessSchema = {
   "@type": ["TouristAttraction", "LocalBusiness"],
   name: "French Food Tour Paris",
   description:
-    "Authentic 3-hour food tour in Paris led by a former top-10 restaurant professional. 12 tastings: cheese, wine, charcuterie, pastries, oysters & restaurant finale. Maximum 10 guests.",
+    "Authentic 3-hour food tour in Paris led by a former top-10 restaurant professional. 15 tastings: cheese, wine, charcuterie, pastries, oysters & restaurant finale. Maximum 10 guests.",
   url: "https://www.frenchfoodtour.com",
-  email: "contact@frenchfoodtour.com",
+  email: "frenchfoodtour@gmail.com",
   address: {
     "@type": "PostalAddress",
-    streetAddress: "Place des Abbesses",
+    streetAddress: "Anvers metro stop, Montmartre",
     addressLocality: "Paris",
     postalCode: "75018",
     addressCountry: "FR",
@@ -89,7 +89,7 @@ const localBusinessSchema = {
     "https://www.frenchfoodtour.com/images/_wp-content_uploads_2025_12_wine-and-cheese-tasting-montmartre-food-tour-scaled.webp",
   aggregateRating: {
     "@type": "AggregateRating",
-    ratingValue: "5.0",
+    ratingValue: "4.9",
     reviewCount: "70",
     bestRating: "5",
   },

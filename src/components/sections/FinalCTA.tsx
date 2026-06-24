@@ -38,7 +38,7 @@ export function FinalCTA() {
             className="text-white/75 text-lg mb-10 max-w-md mx-auto leading-relaxed"
             style={{ fontFamily: "var(--font-dm-sans)" }}
           >
-            Spots fill up fast. Join 200+ guests who&apos;ve already discovered
+            Spots fill up fast. Join 4,000+ guests who&apos;ve already discovered
             Montmartre&apos;s best-kept edible secrets.
           </p>
 
@@ -49,7 +49,7 @@ export function FinalCTA() {
               className="inline-flex items-center justify-center gap-2 px-10 py-4 rounded-full bg-[var(--color-gold)] text-[var(--color-charcoal)] font-600 text-base hover:bg-[var(--color-gold-light)] transition-all hover:shadow-[0_4px_24px_rgba(201,168,76,0.5)] hover:-translate-y-0.5"
               style={{ fontFamily: "var(--font-dm-sans)" }}
             >
-              Book Now — €85/person
+              Book Now — €115/person
               <ArrowRight size={18} />
             </Link>
             <Link

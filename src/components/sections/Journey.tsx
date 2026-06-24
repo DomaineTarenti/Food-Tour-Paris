@@ -1,14 +1,14 @@
 const steps = [
   {
     num: "01",
-    title: "Meet at Abbesses",
-    body: "We gather at the prettiest square of Montmartre, at the door of what we would call the Champs-Élysées of cafés. Look for the light blue umbrella.",
+    title: "Meet at Anvers",
+    body: "We gather at the Anvers metro stop in Montmartre. Look for the light blue umbrella.",
     tag: "The Welcome",
   },
   {
     num: "02",
     title: "The Fromagerie",
-    body: "One of the best cheese shops in the city. Discover the beauty and the endless depth of French cheese — 4 carefully selected varieties with wine pairings.",
+    body: "One of the best cheese shops in the city. Discover the beauty and the endless depth of French cheese, 4 carefully selected varieties with wine pairings.",
     tag: "Wine & Cheese",
   },
   {
@@ -20,13 +20,25 @@ const steps = [
   {
     num: "04",
     title: "The Butcher",
-    body: "The iconic butcher shop of Montmartre — a heaven for meat from carefully selected animals, grass-fed and farm-raised. The way it should be everywhere.",
+    body: "The iconic butcher shop of Montmartre, a heaven for meat from carefully selected animals, grass-fed and farm-raised. The way it should be everywhere.",
     tag: "Charcuterie & Wine",
   },
   {
     num: "05",
+    title: "The Seafood Stop",
+    body: "A little bite out of the sea. No worries if you're not a big seafood lover, it is just one tasting throughout the entire experience, but it's one you won't forget.",
+    tag: "From the Sea",
+  },
+  {
+    num: "06",
+    title: "The Chocolate Maker",
+    body: "An artisan chocolatier nestled in the heart of Montmartre. Watch the craft up close and taste the difference between mass-produced chocolate and the real thing, made with care and a genuine passion for the craft.",
+    tag: "Artisan Chocolate",
+  },
+  {
+    num: "07",
     title: "Our Restaurant",
-    body: "The tour ends with a relaxed 3-course French meal at a cozy local restaurant — wine and cheeses included. A real taste of French gastronomy. The only time you'll say no to French food.",
+    body: "The tour ends with a relaxed full tasting menu at a cozy local restaurant, wine and cheeses included. A real taste of French gastronomy. You'll be so full, the end of the tour will be the only time you'll say no to French food.",
     tag: "The Grand Finale",
   },
 ];

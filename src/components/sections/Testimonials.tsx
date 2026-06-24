@@ -1,35 +1,36 @@
+import Link from "next/link";
 import { Star } from "lucide-react";
 
 const featured = {
-  name: "Sarah M.",
-  country: "🇺🇸 New York, USA",
+  name: "Danielle R.",
+  country: "Viator · Apr 2026",
   rating: 5,
-  text: "Absolutely the best thing we did in Paris. Our guide knew every hidden gem in Montmartre — the wine, the cheese, the stories. I've already recommended it to everyone I know. Don't miss this.",
-  tour: "Montmartre Food & Wine Tour",
-  avatar: "SM",
+  text: "Probably our favorite experience while in Paris! Imran is a hospitality expert and a great guide. He brought us to local shops like the butcher, seafood shop, cheese shop, and the chocolatier — we experienced the area not as tourists but like we lived there. The tour culminated at a restaurant where we feasted on everything he had gathered, paired with really nice French wines. My husband and I ended up coming back to Montmartre a few days later and went back to the same restaurant. Don't hesitate to book this experience, it is worth every penny!",
+  tour: "Montmartre Food Tour",
+  avatar: "DR",
 };
 
 const others = [
   {
-    name: "Thomas K.",
-    country: "🇩🇪 Berlin, Germany",
+    name: "Catherine G.",
+    country: "Viator · Apr 2026",
     rating: 5,
-    text: "Perfect balance of food, history, and storytelling. Small group meant we got personal attention. Worth every euro — book it without hesitation.",
-    avatar: "TK",
+    text: "We had such a wonderful experience. Imrane was so knowledgeable about the local cuisine and offered so much insight into the history of the neighborhood. This tour included more than a full meal. Imrane was so much fun to talk to — he made us feel like we were old friends. We highly recommend this experience.",
+    avatar: "CG",
   },
   {
-    name: "Camille D.",
-    country: "🇨🇦 Montreal, Canada",
+    name: "Robert M.",
+    country: "Viator · Apr 2026",
     rating: 5,
-    text: "I've done food tours in five cities. This one tops them all. The pastries, the natural wine, the guide — it felt genuine, not touristy at all.",
-    avatar: "CD",
+    text: "BEST food tour. We've been on multiple food tours and this was easily the best. Wonderful selection of a LOT of items and a LOT of variety. Includes wine. Guide is very knowledgeable about the food and restaurant industry in Paris and has contacts with some of the best food sources. Choose this one!",
+    avatar: "RM",
   },
   {
-    name: "James & Lucy",
-    country: "🇬🇧 London, UK",
+    name: "William C.",
+    country: "Viator · Apr 2026",
     rating: 5,
-    text: "We did this for our anniversary. Three hours of pure happiness. The secret terrace at the end was jaw-dropping. Already planning to come back.",
-    avatar: "JL",
+    text: "Of the five European food tours we've taken over the years this was by far the best. We had a large variety of delicious foods. Our guide was friendly and quite knowledgeable about the sourcing, preparation, and history of the foods and wines he served. I recommend this tour without reservation.",
+    avatar: "WC",
   },
 ];
 
@@ -80,8 +81,8 @@ export function Testimonials() {
 
           <Stars size={20} />
           <blockquote
-            className="relative z-10 text-xl text-[var(--color-charcoal)] leading-relaxed mt-5 mb-7 max-w-2xl border-0 p-0 m-0 not-italic"
-            style={{ fontFamily: "var(--font-cormorant)", fontStyle: "italic", fontSize: "1.25rem" }}
+            className="relative z-10 text-base text-[var(--color-charcoal)] leading-relaxed mt-5 mb-7 max-w-2xl border-0 p-0 m-0 not-italic"
+            style={{ fontFamily: "var(--font-dm-sans)" }}
           >
             "{featured.text}"
           </blockquote>
@@ -101,7 +102,7 @@ export function Testimonials() {
         </div>
 
         {/* Secondary reviews grid */}
-        <div className="grid md:grid-cols-3 gap-5">
+        <div className="grid md:grid-cols-3 gap-5 mb-8">
           {others.map((r) => (
             <div key={r.name} className="card p-6 flex flex-col gap-4">
               <Stars />
@@ -122,6 +123,15 @@ export function Testimonials() {
               </div>
             </div>
           ))}
+        </div>
+        <div className="text-center">
+          <Link
+            href="/reviews"
+            className="text-sm text-[var(--color-bordeaux)] font-600 hover:underline"
+            style={{ fontFamily: "var(--font-dm-sans)" }}
+          >
+            Read all 70+ reviews →
+          </Link>
         </div>
       </div>
     </section>
