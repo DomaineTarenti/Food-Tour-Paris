@@ -26,9 +26,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: post.meta.description,
     alternates: { canonical: `https://www.frenchfoodtour.com/blog/${post.slug}` },
     openGraph: {
+      type: "article",
       title: post.meta.title,
       description: post.meta.description,
-      images: [{ url: post.coverImage, alt: post.coverAlt }],
+      images: [{ url: post.coverImage, alt: post.coverAlt, width: 1024, height: 683 }],
+      publishedTime: post.date,
+      authors: ["https://www.frenchfoodtour.com/about"],
     },
   };
 }
@@ -104,7 +107,7 @@ function renderSection(section: ContentSection, idx: number) {
             Ready to Taste Montmartre?
           </h3>
           <p className="text-white/80 mb-6 max-w-md mx-auto">
-            Join our intimate Montmartre Food & Wine Tour — 3 hours, 6–8 tastings, one unforgettable afternoon.
+            Join our intimate Montmartre Food & Wine Tour — 3 hours, 15 tastings, one unforgettable afternoon.
           </p>
           <Button href="/food-tour" style={{ background: "var(--color-gold)", borderColor: "var(--color-gold)", color: "var(--color-charcoal)" }}>
             Discover the Tour
@@ -133,7 +136,7 @@ export default async function BlogPostPage({ params }: Props) {
     dateModified: post.date,
     author: {
       "@type": "Person",
-      name: "French Food Tour Guide",
+      name: "Imrane",
       url: "https://www.frenchfoodtour.com/about",
     },
     publisher: {
@@ -201,6 +204,7 @@ export default async function BlogPostPage({ params }: Props) {
               All articles
             </Link>
 
+            <article>
             {/* Author byline */}
             <div className="flex items-center gap-3 mb-8">
               <div className="relative w-10 h-10 rounded-full overflow-hidden flex-shrink-0">
@@ -213,7 +217,7 @@ export default async function BlogPostPage({ params }: Props) {
                 />
               </div>
               <div>
-                <p className="text-sm font-600 font-sans text-[var(--color-charcoal)]">French Food Tour Guide</p>
+                <p className="text-sm font-600 font-sans text-[var(--color-charcoal)]">Imrane</p>
                 <p className="text-xs text-[var(--color-charcoal-light)]">
                   Local guide & founder · {formatDate(post.date)}
                 </p>
@@ -227,6 +231,7 @@ export default async function BlogPostPage({ params }: Props) {
             <div className="space-y-4">
               {post.content.map((section, idx) => renderSection(section, idx))}
             </div>
+            </article>
           </div>
         </div>
 

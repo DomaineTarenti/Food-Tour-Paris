@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: "Privacy Policy — French Food Tour",
   description: "How French Food Tour collects, uses and protects your personal data.",
   alternates: { canonical: "https://www.frenchfoodtour.com/privacy" },
+  robots: { index: false, follow: false },
 };
 
 export default function PrivacyPage() {

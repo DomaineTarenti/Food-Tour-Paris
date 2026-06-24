@@ -10,12 +10,15 @@ export const metadata: Metadata = {
   description:
     "Everything you need to know about the French Food Tour in Paris: meeting point, dietary restrictions, group size, booking & cancellation policy.",
   alternates: { canonical: "https://www.frenchfoodtour.com/faq" },
+  openGraph: {
+    images: ["/images/_wp-content_uploads_2025_12_wine-cheese-tasting-montmartre-paris-food-tour-1024x1024.webp"],
+  },
 };
 
 const faqs = [
   {
     q: "Where does the tour start?",
-    a: "We meet at Place des Abbesses — right outside the metro stop, where a light blue umbrella will be waiting for you. Exact instructions are sent by email upon booking. Abbesses is on metro line 12.",
+    a: "We meet at the Anvers metro stop in Montmartre, where a light blue umbrella will be waiting for you. Exact instructions are sent by email upon booking. Anvers is on metro line 2.",
   },
   {
     q: "How long is the tour?",
@@ -27,7 +30,7 @@ const faqs = [
   },
   {
     q: "What food and drink is included?",
-    a: "You'll enjoy 12 tastings throughout the tour, including wine, artisan cheese, charcuterie, fresh bread, pastries, oysters, and a full 3-course restaurant finale. All food and drinks are fully included in the price.",
+    a: "You'll enjoy 15 tastings throughout the tour, including wine, artisan cheese, charcuterie, fresh bread, pastries, oysters, chocolate, and a full restaurant finale. All food and drinks are fully included in the price.",
   },
   {
     q: "Can you accommodate dietary restrictions?",
@@ -35,11 +38,11 @@ const faqs = [
   },
   {
     q: "Is the tour suitable for children?",
-    a: "The tour is best suited for adults and older teenagers (14+). Children under 14 are welcome if accompanied by a parent, but please note the tour involves wine tastings.",
+    a: "This tour is perfectly suited for families, couples, and groups of all kinds. Kids absolutely love it, maybe just not the wine! The experience is designed to be fun and engaging for everyone at the table.",
   },
   {
     q: "What is the cancellation policy?",
-    a: "We offer free cancellation up to 24 hours before the start of your tour. Cancellations made within 24 hours are non-refundable. In case of extreme weather, we may reschedule your tour at no extra cost.",
+    a: "We offer free cancellation up to 48 hours before the start of your tour. Cancellations made less than 24 hours before are non-refundable, and cancellations between 24–48 hours receive a 50% refund. In case of extreme weather, we may reschedule your tour at no extra cost.",
   },
   {
     q: "Is the tour conducted in English?",

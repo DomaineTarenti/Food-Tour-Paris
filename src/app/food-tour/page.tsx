@@ -11,54 +11,71 @@ export const metadata: Metadata = {
   description:
     "Discover our signature 3-hour food tour in Montmartre: wine, cheese, charcuterie, pastries & hidden gems. Small groups, expert local guide. Book your spot today!",
   alternates: { canonical: "https://www.frenchfoodtour.com/food-tour" },
+  openGraph: {
+    images: ["/images/_wp-content_uploads_2025_12_paris-montmartre-food-tour-1024x683.webp"],
+  },
 };
 
 const itinerary = [
   {
     step: "01",
-    title: "Meeting Point — Place des Abbesses",
+    title: "Meeting Point, Anvers metro stop",
     description:
-      "We gather at the prettiest square of Montmartre, right outside the metro stop. Look for the light blue umbrella. Your guide welcomes you with stories of the neighborhood.",
+      "We gather right outside the Anvers metro stop in Montmartre. Look for the light blue umbrella. Your guide welcomes you with stories of the neighborhood.",
     icon: MapPin,
   },
   {
     step: "02",
-    title: "The Fromagerie — Wine & Cheese",
+    title: "The Fromagerie, Wine & Cheese",
     description:
-      "One of the best cheese shops in the city. Discover the beauty and endless depth of French cheese — 4 carefully selected varieties with wine pairings.",
+      "One of the best cheese shops in the city. Discover the beauty and endless depth of French cheese, 4 carefully selected varieties with wine pairings.",
     icon: Star,
   },
   {
     step: "03",
-    title: "The Boulangerie — Bread & Pastries",
+    title: "The Boulangerie, Bread & Pastries",
     description:
-      "Warm baguette straight from the oven, daily-made croissants and pastries waiting for you. Everything baked the old-fashioned way — you're welcome.",
+      "Warm baguette straight from the oven, daily-made croissants and pastries waiting for you. Everything baked the old-fashioned way.",
     icon: Star,
   },
   {
     step: "04",
-    title: "The Butcher — Charcuterie & Wine",
+    title: "The Butcher, Charcuterie & Wine",
     description:
-      "The iconic butcher shop of Montmartre — a heaven for meat from carefully selected animals, grass-fed and farm-raised. The way it should be everywhere.",
+      "The iconic butcher shop of Montmartre, a heaven for meat from carefully selected animals, grass-fed and farm-raised. The way it should be everywhere.",
     icon: Star,
   },
   {
     step: "05",
-    title: "The Restaurant — The Grand Finale",
+    title: "The Seafood Stop, A Bite from the Sea",
     description:
-      "The tour ends with a relaxed 3-course French meal at a cozy local restaurant — wine and cheeses included. Beef bourguignon, oysters, chocolates, macarons. A real taste of French gastronomy.",
+      "A little bite out of the sea. No worries if you're not a big seafood lover, it is just one tasting throughout the entire experience, but it's one you won't forget.",
+    icon: Star,
+  },
+  {
+    step: "06",
+    title: "The Chocolate Maker",
+    description:
+      "An artisan chocolatier nestled in the heart of Montmartre. Watch the craft up close and taste the difference between mass-produced chocolate and the real thing, made with care, quality ingredients, and a genuine passion for the craft.",
+    icon: Star,
+  },
+  {
+    step: "07",
+    title: "The Restaurant, The Grand Finale",
+    description:
+      "The tour ends with a relaxed full tasting menu at a cozy local restaurant, wine and cheeses included. A real taste of French gastronomy. You'll be so full, the end of the tour will be the only time you'll say no to French food.",
     icon: MapPin,
   },
 ];
 
 const included = [
   "3-hour guided food tour",
-  "12 food & wine tastings (incl. oysters & restaurant finale)",
+  "15 food & wine tastings (incl. oysters, chocolate & restaurant finale)",
   "Expert local guide born in Montmartre",
   "Small group (max 10 guests)",
   "All food & drinks included",
   "Personalised recommendations map",
-  "Free cancellation (24h notice)",
+  "Free cancellation (48h notice)",
 ];
 
 const notIncluded = [
@@ -67,9 +84,45 @@ const notIncluded = [
   "Gratuities (appreciated but not required)",
 ];
 
+const tourSchema = {
+  "@context": "https://schema.org",
+  "@type": "TouristTrip",
+  name: "Montmartre Food & Wine Tour — The Most Complete Paris Food Experience",
+  duration: "PT3H",
+  description:
+    "A 3-hour food tour through Montmartre with 15 tastings: cheese, wine, charcuterie, bread, pastries, oysters, chocolate and a full restaurant finale. Led by a former top-10 restaurant professional.",
+  url: "https://www.frenchfoodtour.com/food-tour",
+  touristType: ["Food lover", "Wine enthusiast", "Cultural traveler", "Families"],
+  offers: {
+    "@type": "Offer",
+    price: "115",
+    priceCurrency: "EUR",
+    availability: "https://schema.org/InStock",
+    url: "https://www.frenchfoodtour.com/book",
+  },
+  provider: {
+    "@type": "LocalBusiness",
+    name: "French Food Tour",
+    url: "https://www.frenchfoodtour.com",
+  },
+  itinerary: {
+    "@type": "ItemList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Anvers metro stop — Welcome" },
+      { "@type": "ListItem", position: 2, name: "The Fromagerie — Wine & Cheese" },
+      { "@type": "ListItem", position: 3, name: "The Boulangerie — Bread & Pastries" },
+      { "@type": "ListItem", position: 4, name: "The Butcher — Charcuterie & Wine" },
+      { "@type": "ListItem", position: 5, name: "The Seafood Stop" },
+      { "@type": "ListItem", position: 6, name: "The Chocolate Maker" },
+      { "@type": "ListItem", position: 7, name: "The Restaurant — Grand Finale" },
+    ],
+  },
+};
+
 export default function FoodTourPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(tourSchema) }} />
       <Header />
       <main className="pt-20">
         {/* Hero */}
@@ -99,7 +152,7 @@ export default function FoodTourPage() {
             {[
               { icon: Clock, label: "Duration", value: "3 hours" },
               { icon: Users, label: "Group size", value: "Max 10 guests" },
-              { icon: MapPin, label: "Meeting point", value: "Place des Abbesses, Montmartre" },
+              { icon: MapPin, label: "Meeting point", value: "Anvers metro stop, Montmartre" },
               { icon: Calendar, label: "Availability", value: "Daily, year-round" },
             ].map(({ icon: Icon, label, value }) => (
               <div key={label} className="flex items-center gap-2">
@@ -236,11 +289,11 @@ export default function FoodTourPage() {
           <div className="container max-w-2xl mx-auto">
             <h2 className="text-white mb-4">Ready to Taste the Real Paris?</h2>
             <p className="text-white/80 text-lg mb-8">
-              Spots fill up fast. Reserve your place on the next available tour.
+              Spots fill up fast. Join 4,000+ guests who have already discovered Montmartre&apos;s best-kept edible secrets.
             </p>
             <Button href="/book" size="lg" icon={<ArrowRight size={20} />}
               className="bg-[var(--color-gold)] border-[var(--color-gold)] text-[var(--color-charcoal)] hover:bg-[var(--color-gold-light)] hover:border-[var(--color-gold-light)]">
-              Book Your Spot — €85/person
+              Book Your Spot — €115/person
             </Button>
             <p className="text-white/50 text-sm mt-4">Free cancellation up to 24 hours before</p>
           </div>

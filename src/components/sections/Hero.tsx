@@ -42,17 +42,18 @@ export function Hero() {
 
           {/* Headline */}
           <h1 className="text-white mb-6 leading-[1.05]" style={{ fontFamily: "var(--font-playfair)" }}>
-            Taste the Real Paris,
+            15 Flavours of France
             <br />
             <em className="not-italic" style={{ color: "var(--color-gold)" }}>
-              One Bite at a Time
+              in One Afternoon.
             </em>
           </h1>
 
           {/* Sub */}
           <p className="text-white/80 text-lg leading-relaxed mb-10 max-w-lg mx-auto" style={{ fontFamily: "var(--font-dm-sans)" }}>
-            A 3-hour food & wine journey through the cobblestone streets of
-            Montmartre — guided by a local, filled with stories.
+            Paris&apos; most generous food tour. Three hours, a local food professional guide,
+            and everything from soup to pastries, the cheeses, the charcuterie, the classics,
+            the unexpected.
           </p>
 
           {/* Social proof */}
@@ -63,8 +64,8 @@ export function Hero() {
               ))}
             </div>
             <span className="text-white/70 text-sm" style={{ fontFamily: "var(--font-dm-sans)" }}>
-              <strong className="text-white font-600">5 / 5</strong>
-              &nbsp;·&nbsp;200+ happy guests
+              <strong className="text-white font-600">4,9 / 5</strong>
+              &nbsp;·&nbsp;4,000+ happy guests
             </span>
           </div>
 
@@ -74,7 +75,7 @@ export function Hero() {
               href="/book"
               className="btn-primary text-base px-8 py-4 inline-flex items-center gap-2"
             >
-              Book Your Spot
+              Book Your Spot — €115
               <ArrowRight size={18} />
             </Link>
             <Link

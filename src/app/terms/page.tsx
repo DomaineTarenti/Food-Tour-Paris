@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: "Terms & Conditions — French Food Tour",
   description: "Terms and conditions for booking and participating in French Food Tour experiences in Montmartre, Paris.",
   alternates: { canonical: "https://www.frenchfoodtour.com/terms" },
+  robots: { index: false, follow: false },
 };
 
 export default function TermsPage() {

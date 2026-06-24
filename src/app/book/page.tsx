@@ -10,13 +10,16 @@ export const metadata: Metadata = {
   description:
     "Reserve your spot on the Montmartre Food & Wine Tour. Small groups, all-inclusive, free cancellation up to 48h. Select your date and book in seconds.",
   alternates: { canonical: "https://www.frenchfoodtour.com/book" },
+  openGraph: {
+    images: ["/images/_wp-content_uploads_2025_12_wine-cheese-tasting-montmartre-paris-food-tour-1024x1024.webp"],
+  },
 };
 
 const included = [
   "3-hour guided food tour in Montmartre",
-  "6–8 tastings: wine, cheese, pastries & more",
-  "Expert local guide — born in Montmartre",
-  "Small group (max 8 guests)",
+  "15 tastings: wine, cheese, charcuterie, pastries & more",
+  "Expert local guide born in Montmartre",
+  "Small group (max 10 guests)",
   "All food & drinks fully included",
   "Free cancellation up to 48 hours",
 ];
@@ -52,7 +55,7 @@ export default function BookPage() {
                   className="text-sm text-[var(--color-charcoal-light)]"
                   style={{ fontFamily: "var(--font-dm-sans)" }}
                 >
-                  4.9 / 5 · 200+ verified reviews
+                  4.9 / 5 · 70+ verified reviews
                 </span>
               </div>
             </div>
@@ -74,7 +77,7 @@ export default function BookPage() {
                       className="text-sm text-[var(--color-charcoal-light)]"
                       style={{ fontFamily: "var(--font-dm-sans)" }}
                     >
-                      3 hours · All-inclusive · Max 8 guests
+                      3 hours · All-inclusive · Max 10 guests
                     </p>
                   </div>
                   <div className="text-right flex-shrink-0">
@@ -82,13 +85,19 @@ export default function BookPage() {
                       className="text-4xl font-bold text-[var(--color-bordeaux)] leading-none"
                       style={{ fontFamily: "var(--font-playfair)" }}
                     >
-                      €85
+                      €115
                     </p>
                     <p
                       className="text-xs text-[var(--color-charcoal-light)] mt-1"
                       style={{ fontFamily: "var(--font-dm-sans)" }}
                     >
-                      per person
+                      adult · €95 child
+                    </p>
+                    <p
+                      className="text-[10px] text-[var(--color-sage)] mt-1"
+                      style={{ fontFamily: "var(--font-dm-sans)" }}
+                    >
+                      Best price, cheaper than Viator or GetYourGuide
                     </p>
                   </div>
                 </div>
@@ -174,12 +183,21 @@ export default function BookPage() {
                     className="text-sm leading-relaxed text-white/80"
                     style={{ fontFamily: "var(--font-dm-sans)" }}
                   >
-                    Sacré-Cœur Basilica steps<br />
+                    Anvers metro stop<br />
                     Montmartre, Paris 18e<br />
                     <span className="text-white/50 text-xs mt-1 block">
                       Exact details sent by email after booking
                     </span>
                   </p>
+                  <a
+                    href="https://maps.google.com/maps?q=Anvers+metro+station+Paris+75018"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block mt-3 text-xs text-[var(--color-gold)] underline hover:no-underline"
+                    style={{ fontFamily: "var(--font-dm-sans)" }}
+                  >
+                    View on Google Maps →
+                  </a>
                 </div>
 
                 {/* Cancellation */}
@@ -194,7 +212,7 @@ export default function BookPage() {
                     className="text-sm text-[var(--color-charcoal-light)] leading-relaxed"
                     style={{ fontFamily: "var(--font-dm-sans)" }}
                   >
-                    Cancel up to 48 hours before your tour for a full refund — no questions asked.
+                    Cancel up to 48 hours before your tour for a full refund, no questions asked.
                   </p>
                 </div>
               </div>
