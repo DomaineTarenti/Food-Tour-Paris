@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Playfair_Display, DM_Sans, Cormorant_Garamond } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 const playfair = Playfair_Display({
@@ -126,6 +127,7 @@ export default function RootLayout({
       </head>
       <body className="min-h-full flex flex-col bg-[var(--color-cream)] text-[var(--color-charcoal)]">
         {children}
+        <Analytics />
         {/* Bokun script is loaded only on /book — not here */}
       </body>
     </html>
